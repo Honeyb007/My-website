@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Diary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+            color: #333;
+            text-align: center;
+            margin: 0%;
+        }
+        header {
+            background-color: burlywood;
+            color: brown;
+            padding: 10px 0;
+            text-align: center;
+            text-shadow: #f0f0f0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        ul li a {
+            color: 4a90e2;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            color: brown;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="potrait.html" target="_blank">Portrait Gallery</a></li>
+            <li><a href="music.html" target="_parent">Music Diary</a></li>
+        </ul>
+    </nav>
+    </header>
+    <body>
+    <div class="container">
+        <h1><b>Now Playing</b></h1>
+        <form>
+            <label for="song">Song Title:</label>
+            <input type="text" id="song" name="song" placeholder="e.g Jalebi Baby" required><br><br>
+
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" name="artist" placeholder="e.g Jason Derulo" required><br><br>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" placeholder="Enter genre"><br><br>
+
+            <label for="mood">Mood:</label>
+            <input type="text" id="mood" name="mood" placeholder="e.g chill"><br><br>
+
+            <label for="thoughts">Thoughts:</label><br>
+            <textarea id="thoughts" name="thoughts" rows="4" cols="50" placeholder="Share your thoughts about the song..."></textarea><br><br>
+
+            <button type="submit">Submit</button>
+      
+        </form>
+        <p>Welcome to my music diary. Here you can share your favorite songs, artists, genres, moods, and thoughts about the music you love.</p>
+
+    </div>
+    </body>
+</body>
+</html>
